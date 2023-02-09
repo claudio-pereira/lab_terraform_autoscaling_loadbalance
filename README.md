@@ -25,3 +25,14 @@ Seguem os passos que o código segue:
 10º - Configurar as regras do Listener
 
 11º - Fazer o terraform destruir toda a Infra para não gerar custos na AWS.
+
+Deve-se criar as chaves para acessar as instâncias e exportar as credenciais da aws antes de usar os comandos do Terraform.
+
+Comandos utilizados para o Terraform:
+
+1º - terraform init
+2º - terraform fmt
+3º - terraform validate
+4º - terraform plan -out=projeto
+5º - terraform apply projeto
+6º - terraform destroy
